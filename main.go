@@ -1,9 +1,11 @@
 package main
 
 import (
-	"fmt"
+	"github.com/AStrizh/StockDBCreator/dbreader"
 )
 
+const FILENAME = "/PATH/TO/FILE/NAME"
+
 func main() {
-	fmt.Print("Testing Change\n")
+	dbreader.Stockreader(FILENAME)
 }
